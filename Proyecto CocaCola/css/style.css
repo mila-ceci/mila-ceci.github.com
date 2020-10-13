@@ -1,0 +1,432 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+
+	font-family: 'Lato';
+	font-size: 14px;
+	font-weight: 300;
+	color: #1E1E1E;
+}
+
+a{
+
+	color: #f40009;
+	text-decoration: none;
+	align-items: center;
+	flex-wrap: wrap: 
+}
+
+header {
+	padding: 15px;
+
+}
+
+header .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap; 
+
+}
+
+header .container .logo {
+	
+	width: 100px;
+	height: auto;
+}
+
+
+
+header .container nav a{
+
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+header .container .hambur{
+	
+	display: none;
+}
+
+
+.container{
+	padding: 0 15px;
+	width: 1140px;
+	margin: 0 auto; 
+}
+
+.container-fluid{
+	padding: 0;
+	width: 100%;
+}
+
+
+.row{
+	margin-left: -15px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.columna{
+	padding: 0 15px 0 15px;
+
+}
+.columna-33{
+	width: 33.33%;
+}
+
+
+.columna-25{
+	width: 25%;
+}
+
+
+.inicio{
+	position: relative;
+	background-color: #ccc;
+}
+
+.inicio img{
+	width: 100%;
+	opacity: .5;
+	display: block;
+}
+
+.inicio .bloque-banner{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 33.33%;
+	text-align: center;
+	margin-left: -16.66%;
+	color: #fff;
+}
+
+.inicio .bloque-banner h1{
+	font-size: 45px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.boton{
+	padding: 10px 25px 10px 25px;
+	display: inline-block;
+
+}
+
+.boton.boton-blanco{
+	background-color: #f40009;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.boton.boton-rojo{
+	background-color: #fff;
+	color: #f40009;
+}
+
+.seccion{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.cuadrado-perfecto{
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+}
+
+#nosotros{
+	background-image: linear-gradient(to left, rgba(30,30,30, 0.10), #f40009), url('../img/latas.jpg');
+	color: #fff;
+	font-size: 18px;
+	text-align: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#servicios .bloque-servicio{
+
+	border: 1px solid #ccc;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio{
+
+	width: 100%;
+	padding-bottom: 100%;
+	position: relative;
+}
+
+
+#servicios .bloque-servicio .bloque-img-servicio img{
+
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+
+#servicios .bloque-servicio .bloque-contenido-servicio{
+
+	padding: 15px;
+}
+
+
+#servicios .bloque-servicio .bloque-contenido-servicio h2{
+
+	margin-top: 0;
+}
+
+#galeria{
+	background-color: #f40009;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+
+#galeria  .columna-33.cuadrado-perfecto{
+	width: 33.33%;
+	padding-bottom: 33.33%;
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+#galeria .cuadrado-perfecto img{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	object-position: center;	
+	opacity: .5;
+	left: 0;
+	top: 0;
+	transition: all .3s ease-in;
+
+}
+#galeria .cuadrado-perfecto img:hover{
+
+	opacity: 1;
+
+}
+
+#galeria .columna {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#galeria .cuadrado-perfecto h3{
+
+	padding-right: 15px;
+	padding-left: 15px;
+	position: absolute;
+	top:40%;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+}
+
+#ubicacion{
+	padding-top: 0;
+	padding-bottom: 25%;
+	position: relative;	
+}
+
+
+#ubicacion iframe{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+
+
+
+
+footer.seccion{
+	background-color: #1E1E1E;
+	color: #fff;
+	padding-bottom: 0;
+}
+
+footer .pie{
+
+	text-align: center;
+	margin-top: 60px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #000;
+}
+
+footer .logo-blanco{
+	width: 100%;
+	height: auto;
+}
+
+footer ul{
+	list-style-type: none;
+	padding-left: 0;
+	display: inline-block;
+	padding-top: 15px;
+	
+}
+
+footer ul li a{
+	color: #fff;
+}
+
+footer ul.redes{
+	display: flex;
+	align-items: center;
+}
+
+footer ul.redes li a{
+	color: #fff;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	margin-left: 15px;	
+}
+
+
+
+@media(min-width: 992px) (max-width: 1199){
+
+}
+
+@media(min-width: 768px) (max-width: 991){
+
+}
+
+
+@media(max-width: 767px){
+
+	.container{
+		width: 100%;
+	}
+
+	.columna-mobile-100{
+		width: 100%;
+	}
+
+	header.open{
+		position: fixed;
+		background-color: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 3;
+	}
+
+	header .container .hambur{
+		display: block;
+		font-size: 40px;
+		position: relative;
+		z-index: 3;
+	}
+	
+	header .container .hambur.open i::before{
+		content: "\f00d";
+	}
+	
+	header .container nav{
+		
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background-color: #fff;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		padding-right: 80px 15px;
+		transform: translateX(100%);
+		transition: all.5s ease-out;
+
+
+	}
+
+	header .container nav a{
+		font-size: 40px;
+		margin-bottom: 15px;
+
+	}
+ 
+	header .container nav.open{
+		transform: translateX(0%);
+	}
+
+	
+
+	.seccion{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.inicio .bloque-banner{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-left: -50%;
+		top: 16%;
+
+	}
+	
+	.inicio .bloque-banner h1{
+		font-size: 30px;
+	
+	}
+
+	#servicios .columna-mobile-100{
+		margin-bottom: 15px;
+	}
+	
+	.enlace-logo{
+		position: relative;
+		z-index: 3;
+	}
+
+	#galeria .columna-mobile-100.cuadrado-perfecto{
+		padding-bottom: 100%;
+		width: 100%;
+
+	}
+
+	#ubicacion{
+		padding-bottom: 100%;
+	}
+	footer.seccion{
+		text-align: center;
+	}
+
+	footer .logo-blanco{
+		width: 25%;
+
+	}
+
+	footer .pie{
+		margin-top: 30px;
+	}
+
+
+	
+	footer ul.redes{
+		display: flex;
+		justify-content: center;
+	}
+	
+
+
+
+}
